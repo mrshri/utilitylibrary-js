@@ -1,0 +1,27 @@
+{
+  "name": "utilitylibrary-js",
+  "version": "1.0.0",
+  "description": "An npm package to use array methods,date formating,string manipulation,looping over arrays",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "npm test run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrshri/utilitylibrary-js.git"
+  },
+  "keywords": [
+    "array",
+    "string",
+    "date",
+    "conditional",
+    "loops"
+  ],
+  "author": "Shri Nivas",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mrshri/utilitylibrary-js/issues"
+  },
+  "homepage": "https://github.com/mrshri/utilitylibrary-js#readme"
+}
