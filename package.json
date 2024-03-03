@@ -1,9 +1,9 @@
 {
   "name": "utilitylibrary-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package to use array methods,date formating,string manipulation,looping over arrays",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "npm test run"
   },
