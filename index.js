@@ -1,4 +1,4 @@
-export const utilityLibrary = {
+const utilitylibrary = {
   // Array methods
   array: {
     isEmpty: (arr) => arr.length === 0,
@@ -7,7 +7,7 @@ export const utilityLibrary = {
     flatten: (arr) => arr.flat(),
     shuffle: (arr) => arr.sort(() => Math.random() - 0.5),
     sum: (arr) => arr.reduce((acc, curr) => acc + curr, 0),
-    average: (arr) => utilityLibrary.array.sum(arr) / arr.length,
+    average: (arr) => utilitylibrary.array.sum(arr) / arr.length,
     max: (arr) => Math.max(...arr),
     min: (arr) => Math.min(...arr),
     filter: (arr, condition) => arr.filter(condition),
@@ -50,3 +50,4 @@ export const utilityLibrary = {
   },
 };
 
+export default utilitylibrary;
